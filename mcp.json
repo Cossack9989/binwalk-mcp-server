@@ -8,7 +8,7 @@
         "/path/to/your/binwalk_mcp_server",
         "python3",
         "-m",
-        "binwalk_mcp.server.py"
+        "binwalk_mcp.server"
       ]
     }
   }
