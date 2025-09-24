@@ -1,7 +1,10 @@
 import os
+import re
 import json
 import math
 import uuid
+import struct
+from datetime import datetime
 
 from pathlib import Path
 from fastmcp import FastMCP
@@ -327,3 +330,8 @@ def extract_strings(file_path: str, min_length: int = 4, encoding: str = "s") ->
         return {"error": "strings command not found. Please install binutils"}
     except Exception as e:
         return {"error": f"Unexpected error: {str(e)}"}
+
+
+if __name__ == "__main__":
+    print("Starting Rizin MCP server...")
+    mcp.run()

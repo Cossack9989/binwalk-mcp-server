@@ -1,0 +1,11 @@
+[project]
+name = "binwalk_mcp_server"
+version = "0.1.0"
+description = "Binwalk MCP Server"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=2.12.3",
+    "hexdump>=3.3",
+    "magika>=0.6.2",
+]
